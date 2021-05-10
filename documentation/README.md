@@ -3,6 +3,14 @@
 
 ## General Updates
 
+sudo apt-get upgrade
+
+Did not 
+
+sudo apt autoremove
+
+Wasn't sure the were actually unneded.
+
 ## Git
 
 ## Robot Operating System
