@@ -1,6 +1,13 @@
 
 # Installation
 
+Board details:
+
+kris@TIA:~/ros2_eloquent$ cat /etc/nv_tegra_release 
+
+# R32 (release), REVISION: 5.1, GCID: 26202423, BOARD: t210ref, EABI: aarch64, DATE: Fri Feb 19 16:45:52 UTC 2021
+
+
 ## General Updates
 
 sudo apt-get upgrade
@@ -15,13 +22,11 @@ Wasn't sure the were actually unneded.
 
 ## Robot Operating System
 
-### References
+https://developer.nvidia.com/blog/implementing-robotics-applications-with-ros-2-and-ai-on-jetson-platform-2/
 
-https://www.stereolabs.com/blog/ros-and-nvidia-jetson-nano/
-https://forums.developer.nvidia.com/t/installing-ros-on-nano/71845
-https://github.com/NVIDIA-AI-IOT/redtail/wiki/Jetson-Setup
-https://github.com/dusty-nv/ros_deep_learning
-https://www.jetsonhacks.com/2019/10/23/install-ros-on-jetson-nano/
+https://github.com/dusty-nv/jetson-containers
+
+Need to look into parameter passing, whether minikube is a good idea for modular deployment of mycroft as well.
 
 ## Mycroft
 
