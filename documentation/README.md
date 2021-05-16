@@ -18,6 +18,15 @@ sudo apt autoremove
 
 Wasn't sure the were actually unneded.
 
+## kubernetes for single node
+
+Ran with this instead:
+https://collabnix.com/multi-node-k3s-cluster-on-nvidia-jetson-nano-in-5-minutes/
+
+Going to make container configurations to launch mycroft and ROS this way instead. Need to clean their files off of the main system though. Hrmph.
+
+
+
 ## Git
 
 ## Robot Operating System
@@ -57,6 +66,8 @@ device.
 
 Added to account as TIA. WJRHLA. 
 
+This failed and core dumped.
+
 ### Configuration
 
 We want TIA to manage its own voice commands. Built local. Here is contents for a ~/.mycroft/mycroft.conf
@@ -87,6 +98,8 @@ These are the keys currently used in Mycroft Core:
 STT API, Google STT, Google Cloud Speech
 Weather Skill API, OpenWeatherMap
 Wolfram-Alpha Skill
+
+Moving to minikube instead.
 
 # Configuration
 
